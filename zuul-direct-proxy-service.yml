@@ -5,4 +5,4 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://172.17.0.1:8761/eureka/
+      defaultZone: http://${SERVICE_HOST}:8761/eureka/
